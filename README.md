@@ -2,7 +2,7 @@
 
 This project is for the [Conventional Ruby on Rails assessment](http://www.learnhowtoprogram.com/lessons/conventional-rails-assessment) at [Epicodus](http://www.epicodus.com/).
 
-**Hey** is a location-based messaging app. The goal is to allow users to geo-tag a location and leave a short message. Other users of the app can then receive the message by entering the approximate location where the message was placed.
+**Hey** is a location-based messaging app. Users create geotagged messages at locations. Other users receive messages by entering the approximate location where the message was placed.
 
 This repo is a rough proof-of-concept.
 
