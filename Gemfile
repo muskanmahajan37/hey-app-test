@@ -7,9 +7,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'autoprefixer-rails'
+
+# use older version of nokogiri due to issues on VMs
+gem 'nokogiri', '1.5.9'
 
 group :development do
   gem 'better_errors'
