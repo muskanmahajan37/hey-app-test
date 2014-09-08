@@ -1,8 +1,7 @@
 <div class="c">
   <% if current_user %>
+  <%= link_to "New Location", new_location_path, class: "block-btn2" %>
   <h1>Locations</h1>
-  <br>
-  <%= link_to "New Location", new_location_path %>
   <br>
   <%= render @locations %>
   <% else %>
