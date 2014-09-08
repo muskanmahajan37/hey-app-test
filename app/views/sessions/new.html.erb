@@ -1,6 +1,15 @@
 <div class="c">
-  <h1>Hey.</h1>
+  <h1>Log In</h1>
   <br>
-  <p><%= link_to "sign up", new_user_path, class: "block-btn" %> &nbsp;&nbsp; <%= link_to "log in", new_user_path, class: "block-btn2" %>
-  </p>
+  <%= form_tag sessions_path do %>
+    <div>
+      <%= label_tag :name %><br />
+      <%= text_field_tag :name, params[:name] %>
+    </div>
+    <div>
+    <%= label_tag :password %><br />
+    <%= password_field_tag :password %>
+    </div>
+    <%= submit_tag "log in", class: "block-btn2" %>
+  <% end %>
 </div>

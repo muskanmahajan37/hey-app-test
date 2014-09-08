@@ -102,7 +102,7 @@ small {
 }
 
 input {
-  font-size: 1em;
+  font-size: 110%;
 }
 
 input, textarea {
@@ -120,11 +120,13 @@ input {
     color: #808080;
 }
 /************End Global**************/
+.container {
+  max-width: 40em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
 
 .c {
-  padding: 1em;
-  max-width: 40em;
-  margin: 0 auto;
   text-align: center;
 }
 
